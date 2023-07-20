@@ -71,7 +71,6 @@
 }
 
 .features-main-wrapper {
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,7 +94,6 @@
 }
 
 .section-tag-wrapper {
-    width: 85px;
     height: 30px;
     border-radius: 22px;
     border: 1px solid #EEE2FE;
@@ -192,4 +190,113 @@
     img {
         height: 24px;
     }
+}
+
+.mission-statement-section {
+    display: flex;
+    width: 1058px;
+    padding: 43px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 32px;
+    border: 1px solid #EFF0F6;
+    background: #FFF;
+}
+
+.mission-statement-main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.left-content-wrapper {
+    display: flex;
+    width: 501px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 38px;
+}
+
+.top-left-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.width85 {
+    width: 85px;
+}
+
+.width196 {
+    width: 196px;
+}
+
+.width99 {
+    width: 99px;
+}
+
+.bottom-left-content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-button {
+    color: $primary-purple;
+    font-family: $secondary-font;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.96px;
+}
+
+.right-content-wrapper {
+    display: flex;
+    height: 448px;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+
+    .image-wrapper {
+        display: flex;
+        height: 447.59px;
+        align-items: center;
+    }
+}
+
+.clients-logo-section {
+    display: flex;
+    width: 1058px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.top-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.heading-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.left {
+    text-align: left;
+}
+
+.bottom-logo-wrapper {
+    display: flex;
+    width: 1054px;
+    justify-content: space-between;
+    align-items: flex-start;
 }
