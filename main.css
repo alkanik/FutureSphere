@@ -117,6 +117,13 @@ nav-bar {
   gap: 16px;
 }
 
+.icon-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  height: 24px;
+}
+
 .nav-link {
   letter-spacing: -0.75px;
   font-weight: 400;
@@ -187,6 +194,49 @@ nav-bar {
   letter-spacing: 0.25px;
 }
 
+@media (min-width: 851px) {
+  .mobile-only {
+    display: none !important;
+  }
+}
+@media (max-width: 850px) {
+  .desktop-only {
+    display: none !important;
+  }
+  body {
+    overflow-x: hidden;
+    padding-top: 0;
+  }
+  header-section {
+    margin-top: 32px;
+    padding: 0 8px;
+    width: 100%;
+  }
+  .logo {
+    height: 13px;
+  }
+  header {
+    padding: 5px 11px;
+    height: 34px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header .navlink-collection {
+    position: absolute;
+    flex-direction: column;
+    right: 0;
+    top: 54px;
+    background-color: gray;
+    align-items: flex-end;
+    padding: 30px;
+    width: 100%;
+    transition: all 0.4s ease;
+    transform: translateX(100%);
+  }
+  header .navlink-collection.visible {
+    transform: translateX(0);
+  }
+}
 .hero-btn-collection {
   display: flex;
   justify-content: center;
